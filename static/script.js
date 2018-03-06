@@ -130,7 +130,7 @@
 		var options = percentage ? {
 			millisPerPixel: 100,
 			grid: {
-				fillStyle: 'rgba(32, 32, 32, 1)',
+				fillStyle: 'rgba(34, 47, 62, 1)',
 				strokeStyle: 'rgba(0, 0, 0, 0)'
 			},
 			minValue: 0,
@@ -139,12 +139,12 @@
 		} : {
 			millisPerPixel: 100,
 			grid: {
-				fillStyle: 'rgba(32, 32, 32, 1)',
+				fillStyle: 'rgba(34, 47, 62, 1)',
 				strokeStyle: 'rgba(0, 0, 0, 0)'
 			}
 		};
 		var ts_options = {
-			strokeStyle: 'rgba(255, 64, 64, 1)'
+			strokeStyle: 'rgba(255, 159, 243, 1.0)'
 		};
 		g[name] = {
 			c: new SmoothieChart(options)

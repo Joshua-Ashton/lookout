@@ -1,11 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
 body {
 	width: 36em;
 	margin: 0 auto;
 	position: relative;
-	background: #202020;
-	color: #c0c0c0;
-	font-family: 'Segoe UI', sans-serif;
+	background: #222f3e;
+	color: #c8d6e5;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	align-content: center;
+	height: 100vh;
+	font-family: 'Montserrat', sans-serif;
 }
+
+#container
+{
+	display: block;
+}
+
 .module {
 	display: inline-block;
 	width: 8rem;
@@ -13,7 +26,7 @@ body {
 	margin: 0.25rem;
 	padding: 0.25rem;
 	vertical-align: top;
-	outline: 1px solid #606060;
+	outline: 1px solid #576574;
 	font-size: 0.75em;
 }
 .module .graph {
@@ -51,13 +64,14 @@ body {
 #heartbeat {
 	width: 5.5rem;
 	height: 5.5rem;
-	position: absolute;
+	position: relative;
 	left: 0;
-	top: 0;
+	float: left;
+	top: -0.2em;
 	text-align: center;
 	line-height: 5.5rem;
 	font-size: 5.5em;
-	color: #ff4040;
+	color: #ff9ff3;
 	transition: font-size 0.25s;
 	-webkit-transition: font-size 0.25s;
 }
