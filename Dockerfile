@@ -14,4 +14,4 @@ RUN pip install -r /lookout/requirements.txt
 
 RUN rm /lookout/requirements.txt
 
-ENTRYPOINT ["python /lookout/lookout.py"]
+ENTRYPOINT python /lookout/lookout.py
